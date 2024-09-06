@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vai com Pão</title>
+    <link rel="icon" href="./img/logo-2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="cabecalho__container">
+        <div class="logo">
+            <img src="./img/logo2.png" alt="Logo do Vai com Pão" class="logo__imagem">
+            <h2 class="logo__nome">Vai com Pão</h2>
+        </div>
+        <div class="cabecalho__pesquisar">
+            <input type="search" class="pesquisar__input" placeholder="Pesquisar seu vídeo favorito" id="campo-pesquisa">
+            <button onclick="pesquisar()" class="pesquisar__btn">Pesquisar</button>
+        </div>
+
+    </nav>
+
+    <hr>
+
+    <section class="pricipal">
+        <aside class="menu__container">
+            <h2 class="menu__titulo">Playlists</h2>
+
+            <ul class="menu__lista">
+                <li onclick="btnAside('doPaoAoPrato')" class="menu__iten">
+                    <a href="#" class="menu__itens">
+                        <i class="icone__inicio"></i>
+                        <span class="icone__texo">Do Pão ao Prato</span>
+                    </a>
+                </li>
+                <li onclick="btnAside('basesDaPanificacao')" class="menu__iten">
+                    <a href="#" class="menu__itens">
+                        <i class="icone__inicio"></i>
+                        <span class="icone__texto">Bases da Panificação</span>
+                    </a>
+                </li>
+                <li onclick="btnAside('molhosEAcompanhamentos')" class="menu__iten">
+                    <a href="#" class="menu__itens">
+                        <i class="icone__inicio"></i>
+                        <span class="icone__texto">Molhos e Acompanhamentos</span>
+                    </a>
+                </li>
+                <li onclick="btnAside('sandubasDiversos')" class="menu__iten">
+                    <a href="#" class="menu__itens">
+                        <i class="icone__inicio"></i>
+                        <span class="icone__texto">Sandubas Diversos</span>
+                    </a>
+                </li>
+                <li onclick="btnAside('fazendoPao')" class="menu__iten">
+                    <a href="#" class="menu__itens">
+                        <i class="icone__inicio"></i>
+                        <span class="icone__texto">Fazendo Pão</span>
+                    </a>
+                </li>
+            </ul>
+            <hr class="linha__menu__lateral">
+            <ul class="menu__lista">
+                <li onclick="btnAside('maisAssistidos')" class="menu__iten">
+                    <a href="#" class="menu__itens">
+                        <i class="icone__inicio"></i>
+                        <span class="icone__texo">Mais assistidos</span>
+                    </a>
+                </li>
+                <li onclick="btnAside('maisRecente')" class="menu__iten">
+                    <a href="#" class="menu__itens">
+                        <i class="icone__inicio"></i>
+                        <span class="icone__texto">Mais recente</span>
+                    </a>
+                </li>
+                <li onclick="btnAside('maisAntigo')" class="menu__iten">
+                    <a href="#" class="menu__itens">
+                        <i class="icone__inicio"></i>
+                        <span class="icone__texto">Mais antigo</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <div class="menu__inicio">
+                <h2> Conheça o canal Vai com Pão</h2>
+                <iframe width="923" height="519" src="https://www.youtube.com/embed/bx1iyW-OhS0" title="A história por trás do Vai com Pão 🍞🥖" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+        </section>
+          
+    </section>
+
+    <hr class="linha__footer">
+    <footer>
+        <p class="texto__footer">2024 - Vai com Pão. Todos os direitos reservados</p>
+        <p class="email__footer">Entre em contato pelo email: vaicompaoarotadosanduba@gmail.com.br</p>
+    </footer>
+    <script src="js/dados.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
