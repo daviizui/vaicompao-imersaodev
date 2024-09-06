@@ -1,5 +1,5 @@
 
-## Vai com Pão
+## Vai com Pão - Imersão Dev com Google Gemini
 
 ### **Sobre o Vai com Pão**
 
